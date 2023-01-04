@@ -1,0 +1,29 @@
+:root{
+    --color-accent-01: #1876f2;
+    --color-primary-01: #efefef;
+    --color-primary-light-01: #ffffff;
+}
+
+.dark-theme {
+    --color-accent-01: #000000;
+    --color-primary-01: #0a0a0a;
+    --color-primary-light-01: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-primary-01);
+    transition: background 0.3s;
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "social-media-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./css/scss/main.scss ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakhecs/-social-media-website-.git"
+  },
+  "author": "cj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakhecs/-social-media-website-/issues"
+  },
+  "homepage": "https://github.com/jakhecs/-social-media-website-#readme"
+}

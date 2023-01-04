@@ -1,0 +1,120 @@
+.header {
+    background-color:  var(--color-accent-01);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    &__logo {
+        width: 160px;
+    }
+
+    &__logos  {
+        & ul li img {
+            margin: 0 15px;
+            width: 28px;
+        }
+    }
+
+    &__profil {
+        
+        &-image img{
+        width: 40px;
+        border-radius: 50%;
+        margin-left: 30px;
+        }
+    
+        &-search-box{
+            background: var(--color-primary-01);
+            width: 350px;
+            border-radius: 20px;
+            align-items: center;
+            padding: 0 15px;
+
+            & img {
+                 width: 18px;
+            }
+
+            & input {
+                width: 100%;
+                background: transparent;
+                outline: none;
+                border: none;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.settings-menu{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) ;
+    background-color: var(--color-primary-light-01);
+    position: absolute;
+    border-radius: 5px;
+    max-width: 350px;
+    overflow: hidden;
+    width: 90%;
+    top: 108%;
+    right: 5%;
+    max-height: 0;
+    transform: max-height 0.3s;
+
+    &-height{
+        max-height: 450px;
+    }
+
+    .user-profile{
+        a {
+            color: var(--color-accent-01);
+            font-size: 12px;
+        }
+    }
+
+    hr {
+        border: 0;
+        height: 1px;
+        background-color: $color-secondary-light-02;
+        margin: 15px 0;
+    }
+
+}
+
+.settings-links{
+    margin: 15px 0;
+    .settings-icon {
+        width: 38px;
+        margin-right: 10px;
+        border-radius: 50px;
+    }
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: $color-secondary-light-02;
+        flex: 1;
+    }
+}
+
+#dark-btn {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: $color-secondary-light-01;
+    width: 45px;
+    border-radius: 15px;
+    padding: 2px 3px;
+    cursor: pointer;
+    transition: padding-left 0.5s;
+
+    span {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        display: inline-block;
+        background-color: var(--color-primary-light-01);
+    }
+
+    &.dark-btn-on{
+        padding-left: 23px;
+        background: #a0a0a0;
+    }
+}

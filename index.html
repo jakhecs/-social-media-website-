@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socialbook - Youtube Channel</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/457dae3ee0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="container flex flex-jc-sb">
+            <div class="header__logos flex flex-ai-c">
+                <img src="./images/logo.png" class="header__logo">
+                <ul>
+                    <li><img src="./images/notification.png"></li>
+                    <li><img src="./images/inbox.png"></li>
+                    <li><img src="./images/video.png"></li>
+                </ul>
+            </div>
+
+            <div class="header__profil flex flex-ai-c">
+                <div class="header__profil-search-box flex">
+                    <img src="./images/search.png">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="header__profil-image online-top" onclick="settingsMenuToggle()">
+                    <img src="./images/profile-pic.png" alt="photo">
+                </div>
+            </div>
+
+            <!---------------- menu--------------------- -->
+
+            <div class="settings-menu">
+
+                <div id="dark-btn">
+                    <span></span>
+                </div>
+
+                <div class="pd">
+                    <div class="user-profile flex flex-ai-c">
+                        <img src="./images/profile-pic.png" class="profil">
+                        <div>
+                            <p>John Nicholson</p>
+                            <a href="#">See your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile flex flex-ai-c">
+                        <img src="./images/feedback.png" class="profil">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help us to improve the new design</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="settings-links flex flex-ai-c">
+                        <img src="./images/setting.png" class="settings-icon">
+                        <a href="#" class="">Setting & Privacy <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links flex flex-ai-c">
+                        <img src="./images/help.png" class="settings-icon">
+                        <a href="#" class="">Help & Support<img src="./images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links flex flex-ai-c">
+                        <img src="./images/display.png" class="settings-icon">
+                        <a href="#" class="">Display & Accessibility <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings-links flex flex-ai-c">
+                        <img src="./images/logout.png" class="settings-icon">
+                        <a href="#" class="">Logout <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <div class="sidebar container flex flex-jc-sb">
+        <div class="left-sidebar">
+            <div class="important-links ">
+                <a href="#" class="flex flex-ai-c"><img src="./images/news.png">Latest News</a>
+                <a href="#" class="flex flex-ai-c"><img src="./images/friends.png">Freinds</a>
+                <a href="#" class="flex flex-ai-c"><img src="./images/group.png">Group</a>
+                <a href="#" class="flex flex-ai-c"><img src="./images/marketplace.png">Marketplace</a>
+                <a href="#" class="flex flex-ai-c"><img src="./images/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#" class="flex flex-ai-c"><img src="./images/shortcut-1.png">Web Developers</a>
+                <a href="#" class="flex flex-ai-c"><img src="./images/shortcut-2.png">Web Design course</a>
+                <a href="#" class="flex flex-ai-c"><img src="./images/shortcut-3.png">Full Stack Development</a>
+                <a href="#" class="flex flex-ai-c"><img src="./images/shortcut-4.png">Website Experts</a>
+            </div>
+        </div>
+
+<!------------------------ main content  -------------------------->
+        <div class="main-content">
+            <div class="story-gallery flex flex-jc-sb">
+                <div class="story story1">
+                    <img src="./images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="./images/member-1.png">
+                    <p>Alison</p>
+                </div>
+                <div class="story story3">
+                    <img src="./images/member-2.png">
+                    <p>Jackson</p>
+                </div>
+                <div class="story story4">
+                    <img src="./images/member-3.png">
+                    <p>Samona</p>
+                </div>
+                <div class="story story5">
+                    <img src="./images/member-4.png">
+                    <p>John Doe</p>
+                </div>
+            </div>
+            <div class="write-post">
+                <div class="user-profile flex flex-ai-c">
+                    <img src="./images/profile-pic.png" class="profil">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small> Public </small><i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Jhon?"></textarea>
+                    <div class="post-links flex ">
+                        <a href="#" class="flex flex-ai-c"><img src="./images/live-video.png">Live video</a>
+                        <a href="#" class="flex flex-ai-c"><img src="./images/photo.png">Photo/Video</a>
+                        <a href="#" class="flex flex-ai-c"><img src="./images/feeling.png">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container mt">
+                <div class="flex flex-jc-sb">
+                    <div class="flex">
+                        <img src="./images/profile-pic.png" class="profil">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span class="flex">June 24 2021, 13:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical s-point"></i></a>
+                </div>
+                <p class="post-test mt">Suscribe  <span>@Easy Tutorials</span> Youtube to watch more videos on wabsite development and UI designs. <a href="#"> #EasyTutorials #YoutubeChannel</a></p>
+                <img src="./images/feed-image-1.png" class="mt post-img">
+                <div class="post-row flex flex-jc-sb">
+                    <div class="activity-icons flex flex-ai-c flex-jc-sb mt">
+                        <div class="flex flex-ai-c"><img src="./images/like-blue.png">120</div>
+                        <div class="flex flex-ai-c"><img src="./images/comments.png">49</div>
+                        <div class="flex flex-ai-c"><img src="./images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon flex flex-ai-c flex-jc-sb mt">
+                        <img src="./images/profile-pic.png"  class="profil-c"><i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="post-container mt">
+                <div class="flex flex-jc-sb">
+                    <div class="flex">
+                        <img src="./images/profile-pic.png" class="profil">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span class="flex">May 03 2021, 11:04pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical s-point"></i></a>
+                </div>
+                <p class="post-test mt">Like and share this video with freinds, tag  <span>@Easy Tutorials</span> facebook pages on your post Ask your doubts in the comments. <a href="#"> #EasyTutorials #YoutubeChannel</a></p>
+                <img src="./images/feed-image-2.png" class="mt post-img">
+                <div class="post-row flex flex-jc-sb">
+                    <div class="activity-icons flex flex-ai-c flex-jc-sb mt">
+                        <div class="flex flex-ai-c"><img src="./images/like-blue.png">90</div>
+                        <div class="flex flex-ai-c"><img src="./images/comments.png">9</div>
+                        <div class="flex flex-ai-c"><img src="./images/share.png">1</div>
+                    </div>
+                    <div class="post-profile-icon flex flex-ai-c flex-jc-sb mt">
+                        <img src="./images/profile-pic.png"  class="profil-c"><i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container mt">
+                <div class="flex flex-jc-sb">
+                    <div class="flex">
+                        <img src="./images/profile-pic.png" class="profil">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span class="flex">April 04 2021, 13:30pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical s-point"></i></a>
+                </div>
+                <p class="post-test mt">Like and share this video with freinds, tag  <span>@Easy Tutorials</span> facebook pages on your post Ask your doubts in the comments. <a href="#"> #EasyTutorials #YoutubeChannel</a></p>
+                <img src="./images/feed-image-3.png" class="mt post-img">
+                <div class="post-row flex flex-jc-sb">
+                    <div class="activity-icons flex flex-ai-c flex-jc-sb mt">
+                        <div class="flex flex-ai-c"><img src="./images/like-blue.png">169</div>
+                        <div class="flex flex-ai-c"><img src="./images/comments.png">39</div>
+                        <div class="flex flex-ai-c"><img src="./images/share.png">10</div>
+                    </div>
+                    <div class="post-profile-icon flex flex-ai-c flex-jc-sb mt">
+                        <img src="./images/profile-pic.png"  class="profil-c"><i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container mt">
+                <div class="flex flex-jc-sb">
+                    <div class="flex">
+                        <img src="./images/profile-pic.png" class="profil">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span class="flex">October 27 2021, 08:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical s-point"></i></a>
+                </div>
+                <p class="post-test mt">Like and share this video with freinds, tag  <span>@Easy Tutorials</span> facebook pages on your post Ask your doubts in the comments. <a href="#"> #EasyTutorials #YoutubeChannel</a></p>
+                <img src="./images/feed-image-4.png" class="mt post-img">
+                <div class="post-row flex flex-jc-sb">
+                    <div class="activity-icons flex flex-ai-c flex-jc-sb mt">
+                        <div class="flex flex-ai-c"><img src="./images/like.png">160</div>
+                        <div class="flex flex-ai-c"><img src="./images/comments.png">229</div>
+                        <div class="flex flex-ai-c"><img src="./images/share.png">60</div>
+                    </div>
+                    <div class="post-profile-icon flex flex-ai-c flex-jc-sb mt">
+                        <img src="./images/profile-pic.png"  class="profil-c"><i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container mt">
+                <div class="flex flex-jc-sb">
+                    <div class="flex">
+                        <img src="./images/profile-pic.png" class="profil">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span class="flex">November 11 2020, 10:15am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical s-point"></i></a>
+                </div>
+                <p class="post-test mt">Like and share this video with freinds, tag  <span>@Easy Tutorials</span> facebook pages on your post Ask your doubts in the comments. <a href="#"> #EasyTutorials #YoutubeChannel</a></p>
+                <img src="./images/feed-image-5.png" class="mt post-img">
+                <div class="post-row flex flex-jc-sb">
+                    <div class="activity-icons flex flex-ai-c flex-jc-sb mt">
+                        <div class="flex flex-ai-c"><img src="./images/like.png">460</div>
+                        <div class="flex flex-ai-c"><img src="./images/comments.png">29</div>
+                        <div class="flex flex-ai-c"><img src="./images/share.png">6</div>
+                    </div>
+                    <div class="post-profile-icon flex flex-ai-c flex-jc-sb mt">
+                        <img src="./images/profile-pic.png"  class="profil-c"><i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="mt">
+                <button type="button" class="load-more-btn">Load-more </button>
+            </div>
+        </div>
+
+<!-------------------------------------- sidebar------------------------------------ -->
+        <div class="right-sidebar"> 
+            <div class="sidebar-title flex flex-jc-sb flex-ai-c">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event flex flex-ai-c">
+                <div class="event-left">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="event-right">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Wilson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event flex flex-ai-c">
+                <div class="event-left">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="event-right">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Wilson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="flex flex-jc-sb flex-ai-c">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="./images/advertisement.png" class="sidebar-advertisement mt">
+            <div class="flex flex-jc-sb mt flex-ai-c">
+                <h4>Conversations</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online-bottom flex flex-ai-c mt">
+                    <img src="./images/member-1.png" class="profil">
+                    <p>Alison Mina</p>
+                </div>
+                <div class="online-bottom flex-ai-c flex mt">
+                    <img src="./images/member-2.png" class="profil">
+                    <p>Jackson Aston</p>
+                </div>
+                <div class="online-bottom flex-ai-c flex mt">
+                    <img src="./images/member-3.png" class="profil">
+                    <p>Samona Rose</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright 2021 - Easy Tutorials Youtube Channel</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
