@@ -69,7 +69,7 @@ li {
   position: absolute;
   width: 7px;
   height: 7px;
-  border: 2px solid --color-primary-01;
+  border: 2px solid #efefef;
   border-radius: 50%;
   background-color: #41db51;
   bottom: 0;
