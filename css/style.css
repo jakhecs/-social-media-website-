@@ -2,12 +2,14 @@
   --color-accent-01: #1876f2;
   --color-primary-01: #efefef;
   --color-primary-light-01: #ffffff;
+  --color-primary-dark-01: #000;
 }
 
 .dark-theme {
   --color-accent-01: #000000;
-  --color-primary-01: #0a0a0a;
+  --color-primary-01: #272626;
   --color-primary-light-01: #000000;
+  --color-primary-dark-01: #ffffff;
 }
 
 * {
@@ -52,7 +54,7 @@ li {
   position: absolute;
   width: 7px;
   height: 7px;
-  border: 2px solid var(--color-primary-01);
+  border: 2px solid #efefef;
   border-radius: 50%;
   background-color: #41db51;
   top: 0;
@@ -125,7 +127,7 @@ a {
   margin-left: 30px;
 }
 .header__profil-search-box {
-  background: var(--color-primary-01);
+  background: #efefef;
   width: 350px;
   border-radius: 20px;
   align-items: center;
@@ -159,8 +161,11 @@ a {
   max-height: 450px;
 }
 .settings-menu .user-profile a {
-  color: var(--color-accent-01);
+  color: #1876f2;
   font-size: 12px;
+}
+.settings-menu .user-profile p {
+  color: var(--color-primary-dark-01);
 }
 .settings-menu hr {
   border: 0;
@@ -235,7 +240,7 @@ a {
 }
 .sidebar .right-sidebar a {
   font-size: 12px;
-  color: var(--color-accent-01);
+  color: #1876f2;
 }
 .sidebar-advertisement {
   width: 100%;
@@ -252,7 +257,7 @@ a {
   margin-bottom: 30px;
 }
 .important-links a:last-child {
-  color: var(--color-accent-01);
+  color: #1876f2;
 }
 .important-links a img {
   width: 25px;
@@ -283,6 +288,9 @@ a {
   font-size: 12px;
 }
 .event-left {
+  background: #ffffff;
+}
+.event-left {
   border-radius: 10px;
   width: 65px;
   height: 65px;
@@ -295,7 +303,7 @@ a {
 }
 .event-left span {
   position: absolute;
-  background: var(--color-accent-01);
+  background: #1876f2;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -330,7 +338,7 @@ a {
   bottom: 10px;
   text-align: center;
   width: 100%;
-  color: var(--color-primary-light-01);
+  color: #ffffff;
   font-size: 14px;
 }
 
@@ -384,6 +392,7 @@ a {
 .post-input-container textarea {
   width: 100%;
   border: 0;
+  color: #ccc;
   outline: 0;
   background-color: transparent;
   border-bottom: 1px solid #ccc;

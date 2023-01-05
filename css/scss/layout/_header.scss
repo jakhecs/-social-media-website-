@@ -23,7 +23,7 @@
         }
     
         &-search-box{
-            background: var(--color-primary-01);
+            background: #efefef;
             width: 350px;
             border-radius: 20px;
             align-items: center;
@@ -63,9 +63,14 @@
 
     .user-profile{
         a {
-            color: var(--color-accent-01);
+            color: $color-accent-01;
             font-size: 12px;
         }
+
+        p {
+            color: var(--color-primary-dark-01);
+        }
+
     }
 
     hr {
