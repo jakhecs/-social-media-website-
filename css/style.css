@@ -415,6 +415,7 @@ a {
 .post-container {
   background-color: var(--color-primary-light-01);
   color: #626262;
+  border-radius: 5px;
   padding: 20px;
 }
 .post-container span {
